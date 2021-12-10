@@ -67,6 +67,10 @@ ul {
     gap: 10px;
 }
 
+h2 {
+    font-size: 36px;
+}
+
 button {
     background-color: #3882F6;
     color: #F9FAF8;
@@ -74,4 +78,46 @@ button {
     border-radius: 5px;
     padding: 5px 20px;
     font-weight: bold;
+}
+
+figure img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid rgb(135, 135, 243);
+    border-radius: 15px;
+}
+
+figcaption {
+    width: 100px;
+    margin: auto;
+}
+
+.middle {
+    text-align: center;
+}
+
+.figures {
+    display: flex;
+    justify-content: center;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 30px;
+}
+
+blockquote {
+    width: 600px;
+    margin: auto;
+}
+
+.confucius {
+    text-align: right;
+}
+
+.quote {
+    font-size: 19px;
+    font-weight: 0;
+    font-style: italic;
+    color: #1F2937;
 }

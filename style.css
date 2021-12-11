@@ -37,6 +37,10 @@ nav, .content {
     display: flex;
     justify-content: space-between;
 }
+.content {
+    gap: 15px;
+}
+
 
 .sec1 {
     display: flex;
@@ -71,7 +75,7 @@ h2 {
     font-size: 36px;
 }
 
-button {
+.first-button {
     background-color: #3882F6;
     color: #F9FAF8;
     border: 0;
@@ -120,4 +124,44 @@ blockquote {
     font-weight: 0;
     font-style: italic;
     color: #1F2937;
+}
+
+.bottom {
+    padding: 60px 100px;
+}
+
+.container {
+    padding: 30px 60px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container div p {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.action {
+    font-size: 13px;
+    font-weight: 0;
+}
+
+.second-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
